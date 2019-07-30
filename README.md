@@ -22,16 +22,16 @@ b) multiple_bands: the sample extraction is performed over three bands: NIR, G, 
 
 ## Inputs
 
-*sampling_extraction.py & temporal_sampling.py*
-**_images_directory** --> directory where the satellite imagery products are located
-**_vector_classes** --> shapefile containing the labeled polygons
-**_class_of_interest** --> polygons' class of interest to perform the sampling at the pixel level
-**_sample_strategy** --> byclass|constant|percent|total|smallest|all check: https://www.orfeo-toolbox.org/CookBook/Applications/app_SampleSelection.html
-
-*temporal_sampling.py*
-**initial date** --> initial date for the sampling to start. e.g "2014-01-01" 
-**periods** --> amount of temporal observations. Varies depending on the frequency and the desired time range. E.g. 183 periods for a one-year range using two days sampling (2D)
-**frequency** --> e.g. "2D", "3D"
+*sampling_extraction.py & temporal_sampling.py*<br />
+**_images_directory** --> directory where the satellite imagery products are located<br />
+**_vector_classes** --> shapefile containing the labeled polygons<br />
+**_class_of_interest** --> polygons' class of interest to perform the sampling at the pixel level<br />
+**_sample_strategy** --> byclass|constant|percent|total|smallest|all check: https://www.orfeo-toolbox.org/CookBook/Applications/app_SampleSelection.html<br />
+<br />
+*temporal_sampling.py*<br />
+**initial date** --> initial date for the sampling to start. e.g "2014-01-01" <br />
+**periods** --> amount of temporal observations. Varies depending on the frequency and the desired time range. E.g. 183 periods for a one-year range using two days sampling (2D)<br />
+**frequency** --> e.g. "2D", "3D"<br />
 
 
 ## Examples

@@ -14,6 +14,7 @@ class pipeline(object):
         self._vrt_file = self._images_directory + "\\all.vrt"
         self._vector_classes = "D:/data/double_cropped_14SC.shp" 
         self._class_of_interest = "mylabel"
+        self._sample_strategy = "all"  #[byclass|constant|percent|total|smallest|all]
         self._statistics_xml = self._images_directory + "\\instats.xml"
         self._outrates_file = self._images_directory + "\\outrates.csv"
         self._sqlite_samples = self._images_directory + "\\all.sqlite"
